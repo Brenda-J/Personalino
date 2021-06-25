@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta content='width=device-width,initial-scale=1.0,user-scalable=no' name='viewport'>
+
+    <link href="src/index.css" rel="stylesheet">
+    </link>
+</head>
+
+<body>
+    <header>
+        <h1>BlackJack</h1>
+        <div class="how-to-play">
+            <button>How to play</button>
+        </div>
+    </header>
+    <div class="table">
+
+        <div class="deck">
+            <div>Deck</div>
+            <div class="card">
+                <p id="deckcount">52</p>
+            </div>
+        </div>
+
+        <div id="house"></div>
+
+        <div id="players"></div>
+
+        <div id="status">
+            <div id="status-content">
+                <p id="status-text"></p>
+                <button id="status-btn" onclick="blackjack.game()">New Game</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="bundle.js"></script>
+    <script src="src/blackjack.js"></script>
+    <script src="src/player.js"></script>
+    <script src="src/deck.js"></script>
+</body>
+
+</html>
