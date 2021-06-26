@@ -2,47 +2,120 @@
 <html lang="en">
 
 <head>
+
     <meta charset="utf-8">
 
     <meta content='width=device-width,initial-scale=1.0,user-scalable=no' name='viewport'>
 
     <link href="src/index.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="./src/slot.css" />
     </link>
 </head>
 
 <body>
     <header>
-        <h1>BlackJack</h1>
-        <div class="how-to-play">
-            <button>How to play</button>
+        <h1>Personalino</h1>
+        <h2>Blackjack</h2>
+        <div class="instructions">
+            <div class="how-to-play">
+                <span class="how-to-play-main">How to Play</span>
+                <span class="how-to-play-hover">
+                    <ul>
+                        <li>● The player and dealer receives 2 cards each from a shuffled deck</li>
+                        <li>● After the first 2 cards are dealt, the player is asked if they would like another card
+                            (called
+                            "hitting") or "stay". The player can keep hitting until they reach 21 (the objective is to
+                            get
+                            as close to 21 without going over or "busting").</li>
+                        <li>● Numbers 2 to 10 are worth their values, face cards are worth 10, and Ace are worth 1 or
+                            11.</li>
+                        <li>● The dealer must keep hitting until they get to 17. If they get above 17 without busting,
+                            they can stay.</li>
+
+                    </ul>
+                </span>
+            </div>
+            <div class="rules">
+                <span class="rules-main">Rules</span>
+                <span class="rules-hover">
+                    <ul>
+                        <li>● If the player has blackjack, they win, unless the dealer also has blackjack, in which case
+                            the
+                            game is a tie.</li>
+                        <li>● If the dealer busts and the player doesn't, the player wins.</li>
+                        <li>● If the player busts, the dealer wins.</li>
+                        <li>● If the player and the dealer both don't bust, whoever is closest to 21 wins.</li>
+                    </ul>
+                </span>
+            </div>
         </div>
     </header>
-    <div class="table">
 
-        <div class="deck">
-            <div>Deck</div>
-            <div class="card">
-                <p id="deckcount">52</p>
+    <div class="outer-table">
+        <div class="table">
+            <div class="deck">
+                <div>Deck</div>
+                <div class="card">
+                    <p id="deckcount">52</p>
+                </div>
+            </div>
+
+            <div id="house"></div>
+
+            <div id="players"></div>
+
+            <div id="status">
+                <div id="status-content">
+                    <p id="status-text"></p>
+                    <button id="status-btn" onclick="blackjack.game()">New Game</button>
+                </div>
             </div>
         </div>
-
-        <div id="house"></div>
-
-        <div id="players"></div>
-
-        <div id="status">
-            <div id="status-content">
-                <p id="status-text"></p>
-                <button id="status-btn" onclick="blackjack.game()">New Game</button>
-            </div>
-        </div>
-
     </div>
+    <hr>
+
+
+    <header class="poker-header">Poker</header>
+    <div class="poker"></div>
+
+
+    <hr>
+
+    <title>Slots</title>
+    <header class="slots-header">Slots</header>
+    <div class="slots-container">
+        <div id="container">
+            <div id="header">
+                <h1>Slots Machine</h1>
+                <h3>Play and Win</h3>
+            </div>
+            <div id="reels">
+                <canvas id="canvas1" width="70" height="300"></canvas>
+                <canvas id="canvas2" width="70" height="300"></canvas>
+                <canvas id="canvas3" width="70" height="300"></canvas>
+                <div id="overlay">
+                    <div id="winline"></div>
+                </div>
+                <div id="results">
+                    <div id="score">
+                        <span id="multiplier">0</span> x <img src="img/gold-64.png" />
+                    </div>
+                    <div id="status"></div>
+                </div>
+            </div>
+            <div id="buttons">
+                <div id="play" class="button button-default">Play</div>
+            </div>
+            <input id="debug" type="button" value="Toggle Reels" />
+        </div>
+    </div>
+    <script type="text/javascript" src="./src/slot.js"></script>
+    <script type="text/javascript">SlotGame();</script>
+
+
 
     <script src="bundle.js"></script>
     <script src="src/blackjack.js"></script>
     <script src="src/player.js"></script>
     <script src="src/deck.js"></script>
 </body>
-
-</html>
