@@ -64,6 +64,12 @@ header h1 {
   font-size: 30px;
 }
 
+.personal-info a {
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
 header h2 {
   display: block;
   text-align: center;
