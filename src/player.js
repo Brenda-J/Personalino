@@ -32,5 +32,4 @@ let players = (function () {
         newPlayer: newPlayer,
         reset: reset
     }
-    
 })();
