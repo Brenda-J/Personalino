@@ -6,7 +6,7 @@ One way to improve our programming skills is game development. Here, we are goin
 * Numbers 2 to 10 are worth their values, face cards are worth 10, and Ace are worth 1 or 11. 
 * The dealer must keep hitting until they get to 17. If they get above 17 without busting, they can stay.
 
-![Screenshot (205)](https://user-images.githubusercontent.com/75908795/123620055-d2d44800-d7d7-11eb-98c8-070a661106ba.png)
+![Screenshot (234)](https://user-images.githubusercontent.com/75908795/125552451-4e7511f8-bf69-47e1-b2ce-735ffa1334ce.png)
 
 
 ## The game is settled by these simple rules:
@@ -15,8 +15,7 @@ One way to improve our programming skills is game development. Here, we are goin
 * If the player busts, the dealer wins.
 * If the player and the dealer both don't bust, whoever is closest to 21 wins.
 
-![Screenshot (204)](https://user-images.githubusercontent.com/75908795/123620061-d49e0b80-d7d7-11eb-92e4-6d54f3c75180.png)
-
+![Screenshot (233)](https://user-images.githubusercontent.com/75908795/125552458-76b8916a-3d4d-4b67-8921-191a64e317c0.png)
 
 ## Wireframes:
 Blackjack will consist of a single screen with the table, game controls and any links on the home page. There will be 3 buttons, next hand, hit, and stay. 
