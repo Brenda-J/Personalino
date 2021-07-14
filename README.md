@@ -1,3 +1,4 @@
+
 One way to improve our programming skills is game development. Here, we are going to build a personal casino arcade including a Blackjack engine that allows us to play against a dealer, who follows conventional house rules. 
 
 ## To remind ourselves, here are the rules for Blackjack:
@@ -6,8 +7,7 @@ One way to improve our programming skills is game development. Here, we are goin
 * Numbers 2 to 10 are worth their values, face cards are worth 10, and Ace are worth 1 or 11. 
 * The dealer must keep hitting until they get to 17. If they get above 17 without busting, they can stay.
 
-![Screenshot (234)](https://user-images.githubusercontent.com/75908795/125552451-4e7511f8-bf69-47e1-b2ce-735ffa1334ce.png)
-
+![Screenshot (237)](https://user-images.githubusercontent.com/75908795/125553176-7f542c4b-a0b1-47c0-86d6-e4f1359baebd.png)
 
 ## The game is settled by these simple rules:
 * If the player has blackjack, they win, unless the dealer also has blackjack, in which case the game is a tie.
@@ -15,7 +15,8 @@ One way to improve our programming skills is game development. Here, we are goin
 * If the player busts, the dealer wins.
 * If the player and the dealer both don't bust, whoever is closest to 21 wins.
 
-![Screenshot (233)](https://user-images.githubusercontent.com/75908795/125552458-76b8916a-3d4d-4b67-8921-191a64e317c0.png)
+![Screenshot (238)](https://user-images.githubusercontent.com/75908795/125553188-7d474c89-7041-4af0-8c90-8b47e5ca517b.png)
+
 
 ## Wireframes:
 Blackjack will consist of a single screen with the table, game controls and any links on the home page. There will be 3 buttons, next hand, hit, and stay. 
