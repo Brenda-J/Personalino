@@ -65,6 +65,13 @@ header h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif ;
   height: 80px;
   padding-bottom: 30px;
+  /* background-image: url(https://image.shutterstock.com/image-illustration/vegas-games-background-casino-gambling-260nw-657481117.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 500px; */
+}
+
+footer {
+  margin-top: 10px;
 }
 
 .personal-info a {
@@ -98,7 +105,6 @@ header h2 {
 .instructions {
   display: flex;
   flex-direction: row;
-  width: 100vw;
   position: relative;
   font-family: Verdana, Geneva, Tahoma, sans-serif ;
   font-size: 20px;
@@ -183,6 +189,12 @@ header h2 {
   height: calc(100vh - 50px);
   background: #076324;
   padding: 80px;
+}
+
+.background {
+  background-image: url(https://t4.ftcdn.net/jpg/02/67/25/49/360_F_267254913_9VQl1JBkFiDs2v8zMcF82kdnHRJx8tg8.jpg);
+  background-size: cover;
+  height: 800px;
 }
 
 .table {
