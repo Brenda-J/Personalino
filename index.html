@@ -11,19 +11,14 @@
     <link type="text/css" rel="stylesheet" href="./src/slot.css" />
     </link>
 
-    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
     <!-- <link rel='icon' href="/favicon.png" /> -->
 
 </head>
 
 <body>
     <header>
-        <h1>Personalino</h1>
-        <h2 class="personal-info">
-            <a href="https://github.com/Brenda-J">Github</a>
-            <a href="https://www.linkedin.com/in/brenda-jiang-5b6b48215/">LinkedIn</a>
-        </h2>
-        <h2>Blackjack</h2>
+        <h1><img src="./logo2.png" /></h1>
         <div class="instructions">
             <div class="how-to-play">
                 <span class="how-to-play-main">How to Play</span>
@@ -43,6 +38,7 @@
                     </ul>
                 </span>
             </div>
+            <h2>Blackjack</h2>
             <div class="rules">
                 <span class="rules-main">Rules</span>
                 <span class="rules-hover">
@@ -121,8 +117,20 @@
     </div>
     <script type="text/javascript" src="./src/slot.js"></script>
     <script type="text/javascript">SlotGame();</script> -->
+    <hr />
 
-
+    <footer>
+        <h2 class="personal-info">
+            <a href="https://github.com/Brenda-J">
+                <img class="fa-git"
+                    src="data:image/png;base64,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" />
+            </a>
+            <a href="https://www.linkedin.com/in/brenda-jiang-5b6b48215/">
+                <img class="fa-linked"
+                    src="https://img.flaticon.com/icons/png/512/174/174857.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" />
+            </a>
+        </h2>
+    </footer>
 
     <script src="bundle.js"></script>
     <script src="src/blackjack.js"></script>

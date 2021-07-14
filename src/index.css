@@ -60,24 +60,37 @@ header h1 {
   text-align: center;
   background: #222;
   color: #fff;
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  height: 80px;
+  padding-bottom: 30px;
 }
 
 .personal-info a {
-  color: white;
+  color: black;
   font-size: 15px;
   margin-left: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.fa-git {
+  height: 32px;
+  width: 55px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.fa-linked {
+  height: 32px;
+  width: 55px;
+  text-decoration: none;
 }
 
 header h2 {
-  display: block;
-  text-align: center;
   background: rgb(46, 46, 46);
   color: #fff;
-  padding: 20px;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
@@ -88,6 +101,13 @@ header h2 {
   width: 100vw;
   position: relative;
   font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  font-size: 20px;
+  color: black;
+}
+
+.instructions h2 {
+  font-size: 30px;
+  padding-top: 10px;
 }
 
 .how-to-play-hover {
@@ -119,6 +139,7 @@ header h2 {
   color: white;
   cursor: pointer;
   font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  padding-top: 20px;
 }
 
 .how-to-play > div {
@@ -154,6 +175,7 @@ header h2 {
   color: white;
   cursor: pointer;
   font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  padding-top: 20px;
 }
 
 .table-outer {
