@@ -212,7 +212,6 @@ let blackjack = (function () {
         document.getElementById('points_' + player.id).innerHTML = player.points;
     }
 
-
     let updateStatus = function (text, win) {
         let div_status = document.getElementById('status');
         div_status.classList.add('active');
@@ -238,4 +237,4 @@ document.onreadystatechange = function () {
     if (document.readyState == "interactive") {
         blackjack.game();
     }
-}
+};
