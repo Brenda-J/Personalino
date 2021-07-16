@@ -1,9 +1,6 @@
 let deck = (function () {
-
     let cards = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'];
-
     let suits = ['hearts', 'spades', 'diamonds', 'clubs'];
-
     let myDeck = [];
 
     let game = function () {
@@ -24,8 +21,8 @@ let deck = (function () {
                     Val: card,
                     Suit: suit
                 }
-                newDeck.push(newCard); // Add value and suit to each card
-            }); // Push each card into array
+                newDeck.push(newCard);
+            }); 
         });
 
         myDeck = newDeck;
@@ -64,6 +61,8 @@ let deck = (function () {
         shuffle: shuffle,
         getCard: getCard
     }
+    
 })();
+
 
 
