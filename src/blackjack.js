@@ -38,7 +38,6 @@ let blackjack = (function () {
     }
 
     let handlePoints = function (player) {
-        // to handle aces last
         let orderedCards = [];
         let points = 0;
         if (player.hand.length > 0) {
